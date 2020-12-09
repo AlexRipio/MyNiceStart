@@ -30,13 +30,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/tienda" />
+        app:srcCompat="@drawable/tienda"
+        />
 
     <Button
         android:id="@+id/button"
         android:layout_width="155dp"
         android:layout_height="55dp"
         android:text="Login"
+        app:layout_constraintTop_toTopOf="b"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="521dp" />
